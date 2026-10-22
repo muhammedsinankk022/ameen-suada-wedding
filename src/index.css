@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush-pink: #F5DDE0;
+  --color-blush-light: #FCF4F5;
+  --color-blush-soft: #F9EBEF;
+  --color-warm-ivory: #FFF8F1;
+  --color-ivory-card: #FFFAF4;
+  --color-antique-gold: #C9A66B;
+  --color-gold-light: #E5CF9F;
+  --color-gold-dark: #9F7E42;
+  --color-gold-muted: #B89357;
+  --color-dusty-rose: #A65368;
+  --color-rose-dark: #7D3547;
+  --color-rose-deep: #5A2332;
+  --color-deep-brown: #4B342E;
+  --color-brown-muted: #6B524B;
+  --color-champagne: #EAD6BD;
+
+  --font-cinzel: "Cinzel", Georgia, serif;
+  --font-script: "Great Vibes", "Alex Brush", cursive;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-arabic: "Amiri", "Scheherazade New", serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: var(--color-warm-ivory);
+    color: var(--color-deep-brown);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A66B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A65368;
+}
+
+/* Luxury animations and effects */
+@keyframes softGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(201, 166, 107, 0.45));
+  }
+  50% {
+    filter: drop-shadow(0 0 18px rgba(201, 166, 107, 0.75));
+  }
+}
+
+@keyframes lanternFlicker {
+  0%, 100% {
+    opacity: 0.88;
+    transform: scale(1);
+  }
+  25% {
+    opacity: 0.96;
+    transform: scale(1.02);
+  }
+  50% {
+    opacity: 0.82;
+    transform: scale(0.99);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+}
+
+.animate-soft-glow {
+  animation: softGlow 4s ease-in-out infinite;
+}
+
+.animate-lantern-flicker {
+  animation: lanternFlicker 3s ease-in-out infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 6s ease-in-out infinite;
+}
+
+/* Glassmorphism luxury card */
+.glass-ivory {
+  background: rgba(255, 248, 241, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 166, 107, 0.35);
+}
+
+.glass-rose {
+  background: rgba(166, 83, 104, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(201, 166, 107, 0.4);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to bottom right, #E5CF9F, #C9A66B, #9F7E42) 1;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #A65368 0%, #C9A66B 50%, #7D3547 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
