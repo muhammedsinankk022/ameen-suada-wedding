@@ -19,6 +19,7 @@ export interface WeddingConfig {
   bride: {
     name: string;
     father: string;
+    mother?: string;
     familyLine: string;
   };
   event: {
@@ -78,7 +79,8 @@ export const WEDDING_CONFIG: WeddingConfig = {
   bride: {
     name: "Suada",
     father: "Maraparambil Mustafa",
-    familyLine: "D/o Maraparambil Mustafa",
+    mother: "Thasleena",
+    familyLine: "D/o Mr. Maraparambil Mustafa & Mrs. Thasleena",
   },
   event: {
     title: "Nikah Ceremony",

@@ -23,7 +23,7 @@ export const ActionButtons: React.FC<{ className?: string }> = ({
       "DTSTART:20261108T043000Z",
       "DTEND:20261108T083000Z",
       "SUMMARY:Nikah Ceremony: Ameen & Suada",
-      `DESCRIPTION:Nikah Ceremony of Ameen (S/o Mr. Umer Korakkalikkuth & Mrs. Fathimath Suhara) and Suada (D/o Maraparambil Mustafa).\\n\\nVenue: Shubham Auditorium, Elamkulam`,
+      `DESCRIPTION:Nikah Ceremony of Ameen (${WEDDING_CONFIG.groom.familyLine}) and Suada (${WEDDING_CONFIG.bride.familyLine}).\\n\\nVenue: Shubham Auditorium, Elamkulam`,
       `LOCATION:Shubham Auditorium, Elamkulam, Kerala`,
       "STATUS:CONFIRMED",
       "END:VEVENT",
@@ -46,7 +46,7 @@ export const ActionButtons: React.FC<{ className?: string }> = ({
   const googleCalendarUrl = () => {
     const title = encodeURIComponent("Nikah Ceremony: Ameen & Suada");
     const details = encodeURIComponent(
-      "With the blessings of Allah, you are joyfully invited to the Nikah Ceremony of Ameen & Suada.\n\nS/o Mr. Umer Korakkalikkuth & Mrs. Fathimath Suhara\nD/o Maraparambil Mustafa\n\nVenue: Shubham Auditorium, Elamkulam"
+      `With the blessings of Allah, you are joyfully invited to the Nikah Ceremony of Ameen & Suada.\n\n${WEDDING_CONFIG.groom.familyLine}\n${WEDDING_CONFIG.bride.familyLine}\n\nVenue: Shubham Auditorium, Elamkulam`
     );
     const location = encodeURIComponent("Shubham Auditorium, Elamkulam, Kerala");
     const dates = "20261108T043000Z/20261108T083000Z";
