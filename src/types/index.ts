@@ -1,4 +1,4 @@
-// Type definitions for Suada & Ameen Wedding Web Application
+// Type definitions for Ameen & Suada Wedding Web Application
 
 export interface GuestPhoto {
   id: string;

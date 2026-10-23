@@ -215,7 +215,7 @@ export const Scene10InvitationCard: React.FC<Scene10InvitationCardProps> = ({
             >
               <img
                 src={displayImageSrc}
-                alt="Suada & Ameen Precious Moment"
+                alt="Ameen & Suada Precious Moment"
                 className="w-full h-64 object-cover object-top transition-transform duration-700 group-hover:scale-105"
               />
 
