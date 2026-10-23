@@ -57,7 +57,7 @@ export const Scene10InvitationCard: React.FC<Scene10InvitationCardProps> = ({
     } catch {}
   };
 
-  const displayImageSrc = preciousPhoto || "/assets/images/scene_couple.jpg";
+  const displayImageSrc = preciousPhoto || "./assets/images/scene_couple.jpg";
 
   return (
     <section
@@ -305,22 +305,22 @@ export const Scene10InvitationCard: React.FC<Scene10InvitationCardProps> = ({
               className="grid grid-cols-4 gap-2 cursor-pointer group"
             >
               <img
-                src="/assets/images/scene_auditorium.jpg"
+                src="./assets/images/scene_auditorium.jpg"
                 alt="Auditorium"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />
               <img
-                src="/assets/images/scene_rings.jpg"
+                src="./assets/images/scene_rings.jpg"
                 alt="Rings"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />
               <img
-                src="/assets/images/scene_mosque.jpg"
+                src="./assets/images/scene_mosque.jpg"
                 alt="Mosque"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />
               <img
-                src="/assets/images/scene_family_photo.jpg"
+                src="./assets/images/scene_family_photo.jpg"
                 alt="Family"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />

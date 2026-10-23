@@ -37,7 +37,7 @@ export const Scene6RingCeremony: React.FC = () => {
         <div className="relative w-full max-w-3xl rounded-3xl overflow-hidden border-2 border-[#C9A66B]/50 shadow-[0_16px_50px_rgba(201,166,107,0.2)] group bg-[#FAF0F2]">
           <div className="relative aspect-[16/9] w-full overflow-hidden">
             <img
-              src="/assets/images/scene_rings.jpg"
+              src="./assets/images/scene_rings.jpg"
               alt="The Wedding Rings - Clasped hands with bridal mehndi and antique gold rings"
               className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
             />

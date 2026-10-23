@@ -43,7 +43,7 @@ export const Scene5BrideAndGroom: React.FC = () => {
         <div className="relative w-full max-w-3xl rounded-3xl overflow-hidden border-2 border-[#C9A66B]/50 shadow-[0_20px_60px_rgba(201,166,107,0.25)] group bg-[#FAF0F2]">
           <div className="relative aspect-[16/9] w-full overflow-hidden">
             <img
-              src="/assets/images/scene_couple.jpg"
+              src="./assets/images/scene_couple.jpg"
               alt="Ameen & Suada - Faceless Kerala Muslim Couple in Ivory Sherwani and Blush Bridal Attire"
               className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
             />

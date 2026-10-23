@@ -8,28 +8,28 @@ import type { GuestPhoto } from "../types";
 const INITIAL_SAMPLE_PHOTOS: GuestPhoto[] = [
   {
     id: "sample-1",
-    url: "/assets/images/scene_auditorium.jpg",
+    url: "./assets/images/scene_auditorium.jpg",
     caption: "The magnificent wedding hall at Shubham Auditorium",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
   },
   {
     id: "sample-2",
-    url: "/assets/images/scene_rings.jpg",
+    url: "./assets/images/scene_rings.jpg",
     caption: "Sacred rings & beautiful memories",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
   },
   {
     id: "sample-3",
-    url: "/assets/images/scene_mosque.jpg",
+    url: "./assets/images/scene_mosque.jpg",
     caption: "Blessed morning arrival at the mosque",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
   },
   {
     id: "sample-4",
-    url: "/assets/images/scene_family_photo.jpg",
+    url: "./assets/images/scene_family_photo.jpg",
     caption: "Our beloved family gathering",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
