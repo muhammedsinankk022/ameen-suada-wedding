@@ -50,7 +50,7 @@ export const Scene8FamilyPhotos: React.FC<Scene8FamilyPhotosProps> = ({
         <div className="relative w-full max-w-3xl rounded-3xl overflow-hidden border-2 border-[#C9A66B]/50 shadow-[0_20px_60px_rgba(201,166,107,0.25)] group bg-[#FAF0F2]">
           <div className="relative aspect-[16/9] w-full overflow-hidden">
             <img
-              src="./assets/images/scene_family_photo.jpg"
+              src="./assets/images/scene_family_photo_v2.jpg"
               alt="Family Photo Album - Faceless Kerala Muslim couple and family portraits"
               className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
             />

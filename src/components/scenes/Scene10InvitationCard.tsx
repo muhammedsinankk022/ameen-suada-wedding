@@ -315,12 +315,12 @@ export const Scene10InvitationCard: React.FC<Scene10InvitationCardProps> = ({
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />
               <img
-                src="./assets/images/scene_mosque.jpg"
+                src="./assets/images/scene_mosque_v2.jpg"
                 alt="Mosque"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />
               <img
-                src="./assets/images/scene_family_photo.jpg"
+                src="./assets/images/scene_family_photo_v2.jpg"
                 alt="Family"
                 className="aspect-square object-cover rounded-xl border border-[#C9A66B]/40 group-hover:opacity-90 transition-opacity"
               />

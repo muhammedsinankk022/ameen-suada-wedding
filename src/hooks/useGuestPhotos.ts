@@ -22,14 +22,14 @@ const INITIAL_SAMPLE_PHOTOS: GuestPhoto[] = [
   },
   {
     id: "sample-3",
-    url: "./assets/images/scene_mosque.jpg",
+    url: "./assets/images/scene_mosque_v2.jpg",
     caption: "Blessed morning arrival at the mosque",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
   },
   {
     id: "sample-4",
-    url: "./assets/images/scene_family_photo.jpg",
+    url: "./assets/images/scene_family_photo_v2.jpg",
     caption: "Our beloved family gathering",
     uploaderName: "Family",
     createdAt: new Date().toISOString(),
