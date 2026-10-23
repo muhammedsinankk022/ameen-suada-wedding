@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:reception": "vite reception --port 5173 --host",
+    "dev:nikah": "vite nikah-reception --port 5174 --host",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
